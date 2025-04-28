@@ -16,11 +16,17 @@ Willkommen beim offiziellen Kubernetes-Deployment des Pulse-Projekts von Code99.
 
 ## Installation
 
-- sudo apt update
-- sudo apt install apt-transport-https ca-certificates curl software-properties-common
-- curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-- sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-- sudo apt update
+Node 1:
+
+Node 2:
+git clone git@github.com:Code99it/pulse.git ~/pulse-stack
+cd ~/pulse-stack
+docker stack deploy -c docker-compose.yml pulse
+
+Node 3:
+git clone git@github.com:Code99it/pulse.git ~/pulse-stack
+cd ~/pulse-stack
+docker stack deploy -c docker-compose.yml pulse
 
 ## Lizenz
 
