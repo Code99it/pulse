@@ -1,12 +1,11 @@
-# Pulse Kubernetes Deployment
+# Deployment
 
-Willkommen beim offiziellen Kubernetes-Deployment des Pulse-Projekts von Code99.
+Willkommen beim offiziellen Deployment des Pulse-Projekts von Code99.
 
 ## Inhalt
 
-- Produktionsbereites Deployment für WebApp-Main
+- Produktionsbereites Deployment
 - Load Balanced Service für mehrere Webserver
-- Ingress-Controller (Traefik) für externen Zugriff
 - Zukunftssicher ausgelegt für Autoscaling und Failover
 
 ## Nutzung
